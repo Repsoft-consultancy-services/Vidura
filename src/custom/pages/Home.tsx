@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <About />
+      <div id='about'>
+        <About />
+      </div>
       <div id='services' className='tw-mt-28'>
         <Services />
       </div>

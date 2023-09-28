@@ -21,10 +21,26 @@ const Footer = () => {
       <div>
         <h2 className='tw-text-white tw-text-3xl tw-font-medium tw-mb-10'>Explore</h2>
         <ul className='tw-text-white tw-m-0 tw-p-0 tw-flex tw-flex-col tw-gap-5'>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Experties</li>
-          <li>Careers</li>
+          <li>
+            <a href='#about' className='tw-text-white'>
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href='#services' className='tw-text-white'>
+              Services
+            </a>
+          </li>
+          <li>
+            <a href='#experties' className='tw-text-white'>
+              Expertise
+            </a>
+          </li>
+          <li>
+            <a href='#contact' className='tw-text-white'>
+              Careers
+            </a>
+          </li>
         </ul>
       </div>
       <div>
