@@ -17,13 +17,17 @@ export default function Header() {
         <div className='tw-max-w-screen-lg tw-h-full tw-mx-auto tw-p-3 tw-flex tw-items-center'>
           <div>
             <h1 className='tw-text-custom-secondary tw-text-5xl lg:tw-text-7xl tw-font-light tw-mb-20'>
-              <span className='tw-text-custom-primary tw-font-extrabold'>Expert </span>
-              in <br /> Political
-              <span className='tw-text-custom-accent tw-font-extrabold'> Survey's</span>
+              <span className='tw-text-custom-primary tw-font-extrabold'>
+                Indian Political analysis
+              </span>
+              <br />
+              and
+              <span className='tw-text-custom-accent tw-font-extrabold'>
+                {' '}
+                Research Organization
+              </span>
             </h1>
-            <button className='btn btn-outline custom-skeleton-button-success'>
-              Read More
-            </button>
+            <button className='btn btn-outline custom-skeleton-button-success'>Read More</button>
           </div>
         </div>
       </div>
