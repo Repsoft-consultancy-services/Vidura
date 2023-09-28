@@ -56,8 +56,8 @@ const Footer = () => {
             <span className='tw-flex tw-gap-3 tw-items-start'>
               <img src='/media/custom/icons/phone.svg' alt='' style={{height: '1.5rem'}} />
               <span>
-                <a href='tel:+9163009792288' className='tw-text-white'>
-                  +9163009792288
+                <a href='tel:+91 63009 79288' className='tw-text-white'>
+                  +91 63009 79288
                 </a>
               </span>
             </span>
