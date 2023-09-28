@@ -22,10 +22,10 @@ const Navbar = () => {
     <nav className='app-navbar tw-ms-auto tw-items-center'>
       <Dropdown className='tw-inline md:tw-hidden mx-2 tw-my-3'>
         <Dropdown.Toggle
-          className='btn btn-icon btn-sm btn-success tw-my-auto after:tw-hidden'
+          className='btn btn-icon btn-lg btn-success tw-my-auto after:tw-hidden'
           id='dropdown-autoclose-true'
         >
-          <i className='bi bi-list tw-text-xl'></i>
+          <i className='bi bi-list tw-text-2xl'></i>
         </Dropdown.Toggle>
 
         <Dropdown.Menu>

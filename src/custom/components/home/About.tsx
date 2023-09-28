@@ -9,8 +9,8 @@ export default function About() {
             The <span className='tw-font-extrabold'>VIDURA SURVEY'S</span>
           </h2>
           <p className='tw-mb-0 tw-text-2xl tw-font-light tw-text-custom-secondary'>
-            Unlike other Frameworks which try to cover everything, It has been built specifically
-            for wordpress. Aliquam sapien est, mollis id mattis id, scelerisque sed dolor
+            Your Voice, Your Choice: Join the Conversation and Make a Difference in Politics with
+            Our Exclusive Political Survey!
           </p>
         </div>
         <button className='btn btn-success'>Know More</button>

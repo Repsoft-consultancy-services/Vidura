@@ -33,15 +33,16 @@ const Footer = () => {
           <li>
             <span className='tw-flex tw-gap-3 tw-items-start'>
               <img src='/media/custom/icons/location.svg' alt='' style={{height: '1.5rem'}} />
-              <span>Abou71 Pilgrim Avenue, Chevy Chase,MD 20815t us</span>
+              <span>12-1-508/51 Laxmi Nagar, shanthi Nagar, Secunderabad- 50001 </span>
             </span>
           </li>
           <li>
             <span className='tw-flex tw-gap-3 tw-items-start'>
               <img src='/media/custom/icons/phone.svg' alt='' style={{height: '1.5rem'}} />
               <span>
-                (226) 906-272 <br />
-                (671) 925-1352
+                <a href='tel:+9163009792288' className='tw-text-white'>
+                  +9163009792288
+                </a>
               </span>
             </span>
           </li>
