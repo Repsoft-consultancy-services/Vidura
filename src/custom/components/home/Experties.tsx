@@ -23,7 +23,7 @@ export default function Experties() {
     <div className='tw-max-w-screen-lg tw-mx-auto tw-px-3'>
       <div className='tw-text-center tw-mb-6 lg:tw-mb-20'>
         <h2 className='tw-uppercase tw-text-custom-primary tw-text-5xl md:tw-text-6xl tw-font-extrabold tw-mb-5'>
-          Expeties
+          Experties
         </h2>
         <h3 className='tw-uppercase tw-mb-0 tw-text-2xl tw-font-light'>
           TO REDUCE ELECTION COST & INCREASE VOTE SWINGS

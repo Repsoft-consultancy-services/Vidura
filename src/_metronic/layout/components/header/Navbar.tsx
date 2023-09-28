@@ -36,10 +36,12 @@ const Navbar = () => {
           ))}
         </Dropdown.Menu>
       </Dropdown>
-      <ul className='tw-items-center tw-mb-0 tw-gap-10 tw-text-2xl tw-font-semibold tw-text-white tw-hidden md:tw-flex'>
+      <ul className='tw-items-center tw-mb-0 tw-gap-10 tw-text-2xl tw-font-semibold tw-hidden md:tw-flex'>
         {links.map((link) => (
-          <li key={link.label} className='font-[Poppins]'>
-            <a href={link.link} className='tw-text-white'>{link.label}</a>
+          <li key={link.label} className='font-[Poppins] '>
+            <a href={link.link} className='tw-text-white hover:tw-text-custom-accent'>
+              {link.label}
+            </a>
           </li>
         ))}
       </ul>

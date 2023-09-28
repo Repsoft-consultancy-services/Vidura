@@ -1,5 +1,6 @@
-* {
+html {
   scroll-behavior: smooth !important;
+  scroll-padding: 7rem !important;
 }
 
 .swiper-button-prev::after {

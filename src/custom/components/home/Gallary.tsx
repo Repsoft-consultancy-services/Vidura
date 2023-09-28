@@ -13,7 +13,7 @@ export default function Gallary() {
   return (
     <div className='tw-px-3'>
       <h2 className='tw-text-center tw-text-5xl md:tw-text-6xl tw-font-extrabold tw-text-custom-primary  tw-mb-16'>
-        Gallary
+        Gallery
       </h2>
       <Swiper
         breakpoints={{

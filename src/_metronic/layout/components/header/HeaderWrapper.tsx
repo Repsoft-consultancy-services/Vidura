@@ -13,7 +13,7 @@ export function HeaderWrapper() {
   }
 
   return (
-    <div id='kt_app_header' className='tw-flex tw-bg-custom-primary'>
+    <div id='kt_app_header' className='tw-flex tw-bg-custom-primary tw-sticky tw-top-0 tw-z-50'>
       <div className='tw-max-w-screen-lg tw-w-full tw-mx-auto'>
         <div
           id='kt_app_header_container'

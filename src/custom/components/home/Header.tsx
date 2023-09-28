@@ -16,7 +16,7 @@ export default function Header() {
       <div className='tw-absolute tw-inset-0 tw-h-full tw-w-full'>
         <div className='tw-max-w-screen-lg tw-h-full tw-mx-auto tw-p-3 tw-flex tw-items-center'>
           <div>
-            <h1 className='tw-text-custom-secondary tw-text-5xl lg:tw-text-7xl tw-font-light tw-mb-10 lg:tw-mb-20'>
+            <h1 className='tw-text-custom-secondary tw-text-5xl lg:tw-text-7xl tw-font-light tw-mb-20'>
               <span className='tw-text-custom-primary tw-font-extrabold'>Expert </span>
               in <br /> Political
               <span className='tw-text-custom-accent tw-font-extrabold'> Survey's</span>
