@@ -6,7 +6,7 @@ export default function ContactUs() {
       <h3 className='tw-text-2xl tw-font-medium tw-mb-5 tw-text-center'>
         TO REDUCE ELECTION COST & INCREASE VOTE SWINGS
       </h3>
-      <div className='tw-mx-auto tw-flex tw-border-2 tw-border-custom-primary tw-rounded-full tw-max-w-fit tw-overflow-hidden tw-text-2xl lg:tw-text-3xl tw-relative'>
+      <div className='tw-mx-auto tw-flex tw-border-2 tw-border-custom-primary tw-rounded-full tw-max-w-fit tw-overflow-hidden tw-text-xl tw-relative'>
         <button className='tw-text-custom-primary tw-px-12 tw-py-3 font-[Poppins]'>
           Contact Us
         </button>
