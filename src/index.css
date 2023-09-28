@@ -1,0 +1,15 @@
+* {
+  scroll-behavior: smooth !important;
+}
+
+.swiper-button-prev::after {
+  content: url('./css-assets/perv.svg') !important;
+}
+
+.swiper-button-next::after {
+  content: url('./css-assets/next.svg') !important;
+}
+
+#dropdown-autoclose-true::after {
+  display: none !important;
+}
