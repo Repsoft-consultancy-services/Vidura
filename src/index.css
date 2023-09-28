@@ -14,3 +14,14 @@ html {
 #dropdown-autoclose-true::after {
   display: none !important;
 }
+
+.custom-skeleton-button-success {
+  color: #ff9933 !important;
+  border-color: #ff9933 !important;
+}
+.custom-skeleton-button-success:hover,
+.custom-skeleton-button-success:active,
+.custom-skeleton-button-success:focus {
+  background: #ff9933 !important;
+  color: white !important;
+}

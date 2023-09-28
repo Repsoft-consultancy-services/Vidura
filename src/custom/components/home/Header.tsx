@@ -21,7 +21,9 @@ export default function Header() {
               in <br /> Political
               <span className='tw-text-custom-accent tw-font-extrabold'> Survey's</span>
             </h1>
-            <button className='btn btn-outline btn-outline-success'>Read More</button>
+            <button className='btn btn-outline custom-skeleton-button-success'>
+              Read More
+            </button>
           </div>
         </div>
       </div>
