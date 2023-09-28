@@ -36,30 +36,24 @@ export default function Gallary() {
         modules={[Navigation]}
         centeredSlides
       >
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_1.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_2.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_1.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_2.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_1.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_2.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_1.png' alt='' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/media/custom/images/gallary_2.png' alt='' />
-        </SwiperSlide>
+        {[
+          '/media/custom/images/gallary-1.webp',
+          '/media/custom/images/gallary-2.webp',
+          '/media/custom/images/gallery-3.jpg',
+          '/media/custom/images/gallery-4.jpg',
+          '/media/custom/images/gallery-5.webp',
+          '/media/custom/images/gallery-6.webp',
+          '/media/custom/images/gallary-1.webp',
+          '/media/custom/images/gallary-2.webp',
+          '/media/custom/images/gallery-3.jpg',
+          '/media/custom/images/gallery-4.jpg',
+          '/media/custom/images/gallery-5.webp',
+          '/media/custom/images/gallery-6.webp',
+        ].map((img, index) => (
+          <SwiperSlide key={index} className='h-100'>
+            <img src={img} alt='' className='tw-h-[200px] tw-object-cover' />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   )
