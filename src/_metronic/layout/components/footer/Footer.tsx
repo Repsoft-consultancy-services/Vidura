@@ -52,7 +52,7 @@ const Footer = () => {
               <span>12-1-508/51 Laxmi Nagar, shanthi Nagar, Secunderabad- 50001 </span>
             </span>
           </li>
-          <li>
+          {/* <li>
             <span className='tw-flex tw-gap-3 tw-items-start'>
               <img src='/media/custom/icons/phone.svg' alt='' style={{height: '1.5rem'}} />
               <span>
@@ -61,7 +61,7 @@ const Footer = () => {
                 </a>
               </span>
             </span>
-          </li>
+          </li> */}
           <li>
             <span>
               Mon - Sat 9 am to 8 pm <br />
@@ -71,7 +71,7 @@ const Footer = () => {
           <li>
             <span className='tw-flex tw-gap-3 tw-items-start'>
               <h3 className='tw-text-white'>@</h3>
-              <span>vidura@gamil.com</span>
+              <span>Indianpoliticalanalysis13@gmail.com</span>
             </span>
           </li>
         </ul>
